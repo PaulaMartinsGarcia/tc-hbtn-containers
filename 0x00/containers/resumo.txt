@@ -1,11 +1,11 @@
-﻿* O que são contêineres?
+﻿* O que são Contêineres?
 Os contêineres permitem que um aplicativo seja executado de forma consistente e confiável, independentemente do sistema operacional ou do ambiente de infraestrutura. Os contêineres fazem isso agregando tudo o que um serviço precisa para ser executado — código, tempo de execução, ferramentas do sistema, bibliotecas e configurações —, criando um pacote portátil, autônomo e executável.
 
 
 * Para que se usa um contêiner?
 
 
-* Modernizar aplicativos existentes na nuvem
+* Modernizar aplicações existentes na nuvem
 * Criar novos aplicativos que maximizem os benefícios dos contêineres
 * Isolar, implantar, dimensionar e oferecer suporte a microsserviços e aplicativos distribuídos
 * Potencializar a eficiência/eficácia do DevOps por meio de criação/teste/implantação simplificados
@@ -39,9 +39,13 @@ Os contêineres permitem que um aplicativo seja executado de forma consistente e
 
 
 
-* Quais as diferenças entre containers e máquinas virtuais (VMs) ?
+* Quais as diferenças entre Contêiners e máquinas virtuais (VMs) ?
 
 
 O contêiner é um pacote que inclui seu aplicativo e tudo o que ele precisa para ser executado, exceto o sistema operacional. A máquina virtual é um pacote que inclui seu aplicativo e tudo o que ele precisa ser executado, incluindo o próprio sistema operacional.
 * Quais são as principais ferramentas e tecnologias de contêiner?
 Docker e Kubernetes
+
+
+A tecnologia Docker torna possível criar e executar contêineres, sendo o padrão do setor para o que define um "contêiner". O Kubernetes (abreviado como k8s) torna possível gerenciar (ou "orquestrar") todas as cargas de trabalho conteinerizadas, incluindo provisionamento, rede, balanceamento de carga, proteção e dimensionamento. O Docker pode rodar de forma autônoma sem o Kubernetes, mas o Kubernetes não funciona sem um serviço de contêiner como o Docker.
+A partir de 2021, o Docker detém praticamente todo o mercado na área de conteinerização. Existem muitos produtos Kubernetes concorrentes no mercado, com o Kubernetes autogerenciado instalado em 50% das empresas entrevistadas pela StackRox. Os cinco principais são Kubernetes autogerenciado (50%), Amazon EKS (44%), Azure AKS (31%), RedHat OpenShift (22%) e Amazon ECS (20%).
